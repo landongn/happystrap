@@ -1,32 +1,10 @@
-Blog
-===========================================================
+Happystrap!
+======
+A Happy little full stack framework boilerplate.
 
-Django admin login
------------------------------------------------------------
+Installation
+====
+Fork the repo, npm install && bower install, then run grunt server.
 
-* Username: admin
-* Password: notinproduction
+Problems? Make an issue.
 
-Installing Blog Backend
------------------------------------------------------------
-
-```sh
-cd <PATH_TO_PROJECT>
-sh ./scripts/setup.sh
-```
-
-Installing Blog Frontend
------------------------------------------------------------
-
-```sh
-cd <PATH_TO_PROJECT>
-npm install
-```
-
-Running the project
------------------------------------------------------------
-
-```sh
-cd <PATH_TO_PROJECT>
-grunt server:8001
-```
