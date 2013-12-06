@@ -1,0 +1,20 @@
+$experimental-support-for-opera: false !default;
+$experimental-support-for-khtml: false !default;
+$legacy-support-for-ie6: false !default;
+$legacy-support-for-ie7: false !default;
+
+@import
+	"../lib/caboose/caboose",
+	"../lib/caboose/src/caboose/reset",
+	"../lib/foundation/scss/foundation.scss",
+	"mixins/mixins",
+
+	"placeholders/placeholders",
+
+	"fonts/icons",
+
+	"base/body",
+	"base/header",
+	"base/footer",
+
+	"views/home";

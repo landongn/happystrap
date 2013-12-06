@@ -1,0 +1,12 @@
+html {
+	background: #fff;
+	@extend %typeface;
+}
+
+a {
+	color: #4e7c99;
+}
+
+#main {
+	padding: 20px;
+}

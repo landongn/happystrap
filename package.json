@@ -1,0 +1,37 @@
+{
+  "name": "blog",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Landon Noss <landongn@gmail.com>",
+  "dependencies": {
+    "travelogue": "~0.4.2",
+    "yar": "~0.4.0",
+    "passport": "~0.1.17",
+    "hapi": "~1.20.0",
+    "mongoose": "~3.8.1",
+    "jade": "~0.35.0",
+    "passport-local": "~0.1.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-concurrent": "~0.3.0",
+    "grunt-ember-templates": "~0.4.16",
+    "grunt-notify": "~0.2.13",
+    "grunt-neuter": "~0.6.0",
+    "time-grunt": "~0.1.1",
+    "load-grunt-tasks": "~0.1.0",
+    "grunt-nodemon": "~0.1.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}

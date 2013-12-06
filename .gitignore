@@ -1,0 +1,65 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.psd
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.pydevproject
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+# Translations
+*.mo
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.build
+
+# Python
+*.py[co]
+env
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+*.db
+collected-static/*
+uploads/*
+!collected-static/.gitkeep
+!uploads/README
+project/static/*
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+# npm
+node_modules
+
+# Bower
+project/source/lib
+
+# Sas
+.sass-cache
