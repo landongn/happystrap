@@ -3,7 +3,7 @@ html
 	head
 		include ./partials/head.jade
 		include ./partials/stylesheets.jade
-		title radiate.im
+		title happystrap
 		link(rel="stylesheet", href="/compiled/css/style.css")
 		script(src="/static/lib/modernizr/modernizr.js")
 
@@ -16,4 +16,8 @@ html
 		script(src="/compiled/js/app.develop.js")
 		script(src="/compiled/js/templates.develop.js")
 		block javascripts
+		script.
+			setTimeout(function () {
+				window.jQuery(document).foundation();
+			}, 300);
 
