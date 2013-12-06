@@ -63,3 +63,6 @@ project/source/lib
 
 # Sas
 .sass-cache
+
+#nodemon
+.nodemonignore
