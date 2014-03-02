@@ -18,11 +18,9 @@ Happystrap uses grunt, bower, and various grunt-contrib-* packages, such as:
 - emberTemplate compliation
 - nodemon for easy server process management (just type `rs` while `grunt server` is running to restart it.)
 - and more
-- 
 
 Features Planned
 ===
-
 - qunit integration
 - testing boilerplate for clientside ember integration testing and regular unit testing
 - deploy via yeoman-generator
